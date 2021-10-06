@@ -5,8 +5,8 @@ import android.content.Context;
 
 public class BmiCalculator {
     public static void bmicalculate(Context c,int weight, int height){
-        height=height/100;
-        double bmi=weight/(height*height);
+        double height2=height/100;
+        double bmi=weight/(height2*height2);
         String message="null";
         if(bmi<=16){
             message="Severe Thinness";
