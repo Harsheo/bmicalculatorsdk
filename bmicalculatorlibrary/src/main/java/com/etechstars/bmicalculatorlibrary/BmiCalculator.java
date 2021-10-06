@@ -4,7 +4,7 @@ import android.widget.Toast;
 import android.content.Context;
 
 public class BmiCalculator {
-    public static void bmicalculate(Context c,int weight, int height){
+    public static void bmicalculate(Context c,double weight, double height){
         double height2=height/100;
         double bmi=weight/(height2*height2);
         String message="null";
