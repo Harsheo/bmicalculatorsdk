@@ -40,7 +40,9 @@ public class BmiCalculator {
         else{
             message="Obese Class III";
         }
+        
+        String message2= "Your BMI is "+bmi+"."+message;
 
-        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
+        Toast.makeText(c,message2,Toast.LENGTH_SHORT).show();
     }
 }
