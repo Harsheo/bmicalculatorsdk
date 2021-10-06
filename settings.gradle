@@ -1,0 +1,3 @@
+rootProject.name = "bmicalculatorsdk"
+include ':app'
+include ':bmicalculatorlibrary'
