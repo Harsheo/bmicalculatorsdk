@@ -8,7 +8,7 @@ public class BmiCalculator {
         height=height/100;
         int bmi=weight/(height*height);
         String message="null";
-        if(bmi>=16){
+        if(bmi<=16){
             message="Severe Thinness";
 
         }
