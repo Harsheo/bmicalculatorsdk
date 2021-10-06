@@ -42,6 +42,5 @@ public class BmiCalculator {
         }
 
         Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
-        return bmi;
     }
 }
